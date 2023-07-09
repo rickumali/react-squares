@@ -1,4 +1,5 @@
 import './App.css';
+import Square from './Square.js';
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <p>Enter Col</p>
       <div>
         <div className='board-row'>
-          <button className='square'/>
+          <Square/>
         </div>
       </div>
     </div>
