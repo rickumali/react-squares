@@ -1,11 +1,12 @@
 import './App.css';
 import Square from './Square.js';
+import CountFieldEntry from './CountFieldEntry';
 
 function App() {
   return (
     <div className="App">
-      <p>Enter Row</p>
-      <p>Enter Col</p>
+      <CountFieldEntry name="Row"/>
+      <CountFieldEntry name="Column"/>
       <div>
         <div className='board-row'>
           <Square/>
