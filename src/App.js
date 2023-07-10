@@ -10,6 +10,18 @@ function App() {
       <div>
         <div className='board-row'>
           <Square/>
+          <Square/>
+          <Square/>
+        </div>
+        <div className='board-row'>
+          <Square/>
+          <Square/>
+          <Square/>
+        </div>
+        <div className='board-row'>
+          <Square/>
+          <Square/>
+          <Square/>
         </div>
       </div>
     </div>
