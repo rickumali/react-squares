@@ -1,6 +1,6 @@
 import './App.css';
-import Square from './Square.js';
 import CountFieldEntry from './CountFieldEntry';
+import RowOfSquares from './RowOfSquares';
 
 function App() {
   return (
@@ -8,21 +8,10 @@ function App() {
       <CountFieldEntry name="Row"/>
       <CountFieldEntry name="Column"/>
       <div>
-        <div className='board-row'>
-          <Square/>
-          <Square/>
-          <Square/>
-        </div>
-        <div className='board-row'>
-          <Square/>
-          <Square/>
-          <Square/>
-        </div>
-        <div className='board-row'>
-          <Square/>
-          <Square/>
-          <Square/>
-        </div>
+        <RowOfSquares columns={3}/>
+        <RowOfSquares columns={3}/>
+        <RowOfSquares columns={3}/>
+        <RowOfSquares columns={3}/>
       </div>
     </div>
   );
