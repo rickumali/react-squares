@@ -9,8 +9,8 @@ function App() {
 
   return (
     <div className="App">
-      <CountFieldEntry name="Row" />
-      <CountFieldEntry name="Column" />
+      <CountFieldEntry name="Row" value={rowCount} />
+      <CountFieldEntry name="Column" value={columnCount} />
       <Board rows={rowCount} columns={columnCount} />
     </div>
   );
